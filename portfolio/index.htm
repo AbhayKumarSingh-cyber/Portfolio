@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="photo.png" alt="Abhay">
+        <h1> Abhay Kumar Singh</h1>
+        <p> Full Staack Developer</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <hr>
+   
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a student of B.Tech IT final year.
+            I am a Full Stack Developer.
+            I love building websites and learning new technologies.
+        </p>
+    </section>
+
+    <hr>
+
+    <section id="skills">
+        <h2>Skills</h2>
+           <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Basic Networking</li>
+            </ul>
+    </section>
+
+    <hr>
+
+    <section id="contact">
+        <div class="container">
+          <h2>Contact Me</h2>
+
+            <form id="contactForm">
+              <label>Name:</label><br>
+              <input type="text" placeholder="Enter Your Name" id="name"><br><br>
+
+              <label>Email:</label>
+              <input type="email" placeholder="Enter your email" id="email"><br><br>
+
+              <label>Message</label>
+              <textarea rows="5" placeholder="Write message" id="message"></textarea><br><br>
+
+              <button type="submit">Send</button>
+              <p id="error"></p>
+            </form>
+        </div>
+        <script src="script.js"></script>
+    </section>
+
+    <hr>
+
+    <footer>
+        <p>@ 2025 Abhay Kumar Singh</p>
+    </footer>
+</body>
+</html>
